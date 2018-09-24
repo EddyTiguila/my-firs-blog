@@ -25,7 +25,7 @@ SECRET_KEY = 'kmn)avnofx=(1!h4_v+4(%upsb050wj%p+rvuff5tq87+^m=u7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['eddyjoseth08.pythonanywhere.com',]
+ALLOWED_HOSTS = ['eddyjoseth08.pythonanywhere.com','127.0.0.1',]
 
 
 # Application definition
