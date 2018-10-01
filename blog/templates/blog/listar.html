@@ -12,8 +12,10 @@
 
             {% for p in publicados %}
             <div>
+              <div class ="date">
               <p>fecha de publicacion : {{p.fecha_publicacion}}</p>
-              <h1><a href="">{{p.titulo}}</a></h1>
+              </div>
+              <h1><a href="{% url 'detalle' pk=p.pk %}">{{p.titulo}}</a></h1>
               <p>{{p.texto|linebreaksbr}}</p>
             </div>
             {%endfor%}
