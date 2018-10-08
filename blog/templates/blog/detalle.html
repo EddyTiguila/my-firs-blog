@@ -7,4 +7,6 @@
         {% endif %}
         <h1>{{ pub.titulo }}</h1>
         <p>{{ pub.texto|linebreaksbr }}</p>
+  <h3><a href="{% url 'post_edit' pk=pub.pk %}">editar</a></h3>
+
     </div>
