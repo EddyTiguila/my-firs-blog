@@ -24,6 +24,7 @@
             {%endfor%}
             <form method="POST" class="post-form">{% csrf_token %}
                   <h3><a href="{% url 'nuevoPost' %}">Nuevo Post</a></h3>
+                  <h3><a href="{% url 'post_draft_list' %}">Borrador</a></h3>
             </form>
 
         </body>
